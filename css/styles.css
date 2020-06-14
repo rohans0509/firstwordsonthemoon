@@ -1,0 +1,52 @@
+body {
+  background-color: #000839;
+  color: white;
+}
+
+/* Main Container */
+.container-fluid {
+  padding: 1% 5% 0;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-size: 1.5rem;
+}
+.nav-item {
+  margin: 0px 40px 0px;
+}
+.home {
+  margin-left: 10%;
+}
+
+/* Title */
+.title {
+  padding: 7% 0;
+  text-align: center;
+}
+/* Information */
+.info {
+  line-height: 1.5;
+}
+.heading-info {
+  font-size: 3.2rem;
+  padding-top: 20%;
+  line-height: 1.5;
+}
+
+.para-info {
+  margin-bottom: 5%;
+}
+/* Image */
+.neil-image {
+  width: 100%;
+}
+
+@media (max-width:1028px) {
+  .heading-info {
+    padding-top: 5% ;
+  }
+  .info {
+    margin-bottom: 5%;
+  }
+}
